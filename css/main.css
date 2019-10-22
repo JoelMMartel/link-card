@@ -32,6 +32,12 @@ dl {
   display: inline-block;
   text-align: left;
   font-size: .875rem;
+  columns: 2;
+  column-gap: 1px;
+}
+
+dd {
+  font-style: italic;
 }
 
 .list {
@@ -39,22 +45,14 @@ dl {
   border-bottom: 2px solid #9a816d;
 }
 
-.list-terms {
-  font-style: italic;
-  padding-left: 1rem;
-}
-
-.list-categories {
-  padding-right: 1rem;
-}
-
 a {
   display: block;
-  border: 3px solid #785439;
+  border: 3px solid #9a816d;
   padding: 1rem;
   border-radius: 8px;
   background-color: #dcd4cd;
   padding-bottom: 0;
+  font-weight: 500;
 }
 
 .footer {
