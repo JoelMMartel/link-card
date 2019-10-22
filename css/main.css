@@ -11,6 +11,7 @@ html {
   text-decoration:none;
   font-family: Georgia, serif;
   display: block;
+  width: 320px;
   color: #785439;
 }
 
@@ -27,7 +28,6 @@ ol {
   display: inline-block;
   text-align: left;
   font-size: .875rem;
-  padding-left: 0;
 }
 
 .list {
@@ -39,17 +39,37 @@ ol {
   font-style: italic;
 }
 
+.list-categories {
+  padding-left: 0;
+}
+
 a {
   display:block;
   border: 3px solid #785439;
   padding: 1rem;
   border-radius: 8px;
   background-color: #dcd4cd;
+  padding-bottom: 0;
+}
+
+.footer {
+  text-align: center;
+  padding: 1rem;
+}
+
+section {
+  display: inline-block;
+  margin: 0 0 1rem;
 }
 
 .btn {
-  text-align: center;
   display: inline-block;
   color: #f0eee8;
   background-color: #785439;
+  padding: .4em .75em .5em;
+  border-radius: 8px;
+  text-align: center;
+  margin: 0;
+  font-family: Dosis, sans-serif;
+  font-weight: bold;
 }
