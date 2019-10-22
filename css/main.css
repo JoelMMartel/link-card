@@ -15,15 +15,19 @@ html {
   color: #785439;
 }
 
-h2 {
+.link-card h2 {
   font-family: Dosis, sans-serif;
-  font-weight: bold;
+  font-weight: bolder;
   color: #512200;
   display: inline-block;
   margin: 0 0 1rem;
 }
 
-ol {
+.link-card:hover {
+  background-color: #cabdb2;
+}
+
+dl {
   list-style: none;
   display: inline-block;
   text-align: left;
@@ -37,10 +41,11 @@ ol {
 
 .list-terms {
   font-style: italic;
+  padding-left: 1rem;
 }
 
 .list-categories {
-  padding-left: 0;
+  padding-right: 1rem;
 }
 
 a {
@@ -72,4 +77,5 @@ section {
   margin: 0;
   font-family: Dosis, sans-serif;
   font-weight: bold;
+  border: 3px solid #785439;
 }
